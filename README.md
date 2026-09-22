@@ -12,6 +12,24 @@ Text-based person search (TBPS) requires precise alignment between visual appear
 
 Extensive experiments demonstrate the superiority of NDM-CLIP, particularly under constrained computational resources. Notably, NDM-CLIP achieves **69.76% Rank@1** on the full CUHK-PEDES dataset, and exhibits exceptional efficiency in data-scarce settings, attaining 51.81% Rank@1 when trained on just 10% of CUHK-PEDES and 58.81% on the challenging 3000Vn-V2E benchmark.
 
+## Framework Architecture
+
+![NDM-CLIP Architecture](framework)
+
+## Experimental Results
+
+**Results on CUHK-PEDES:**
+
+![CUHK-PEDES Results](table_cuhk.png)
+
+**Results on 3000Vn-V2E:**
+
+![3000Vn-V2E Results](table_vn3k.png)
+
+**Retrieval Results Visualization:**
+
+![Retrieval Results](retrieval_results)
+
 ## Repository Structure
 
 - `model.py`: Model definition including TBPSLightning for PyTorch Lightning integration.
@@ -81,4 +99,4 @@ python visualize_gass.py
 
 ## NOTE
 
-If you want the datasets please contact me via email: lehoaganh2910@gmail.com
+If you want the datasets for this project, please contact me via email: lehoaganh2910@gmail.com
