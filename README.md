@@ -79,15 +79,6 @@ You can generate visualizations of token-wise weight scores and attention maps, 
 python visualize_gass.py
 ```
 
-## Citation
+## NOTE
 
-If you find this code or our paper useful for your research, please cite our work:
-
-```bibtex
-@inproceedings{le2026ndmclip,
-  title={NDM-CLIP: Normalized Distribution Matching and Masked-Text Prediction for Text-Based Person Search},
-  author={Le, Hoang-Anh and Le, Thi-Lan and Do, Thi-Ngoc-Diep},
-  booktitle={2026 Asia Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)},
-  year={2026}
-}
-```
+If you want the datasets please contact me via email: lehoaganh2910@gmail.com
